@@ -1,0 +1,2 @@
+bin_PROGRAMS=quick_sort
+quick_sort_SOURCES=quick_sort.c

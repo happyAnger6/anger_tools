@@ -1,0 +1,6 @@
+*.log
+COPYING INSTALL install-sh missing
+Makefile.in
+Makefile
+aclocal.m4
+stamp-h1
