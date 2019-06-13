@@ -4,3 +4,5 @@ Makefile.in
 Makefile
 aclocal.m4
 stamp-h1
+*/.deps
+.deps

@@ -37,7 +37,8 @@ int main()
 	int a[] = {1,2,4,5,3,6,8,9,12,4,4,5,3,1,42};
 	int len = sizeof(a)/sizeof(int);
 	quick_sort(a, 0, len-1);
-	for(int i = 0;i < len; i++)
+        int i;
+	for(i = 0;i < len; i++)
 	{
 		printf("[%d]=[%d]\r\n",i,a[i]);	
 	}
