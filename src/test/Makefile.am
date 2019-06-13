@@ -1,0 +1,2 @@
+noinst_PROGRAMS=test2array
+test2array_SOURCES=test_2array.c

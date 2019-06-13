@@ -6,3 +6,6 @@ aclocal.m4
 stamp-h1
 */.deps
 .deps
+*.Po
+*.o
+autom4te.cache/

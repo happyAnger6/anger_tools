@@ -21,4 +21,5 @@ AC_PROG_CC
 AC_OUTPUT([Makefile
 	   src/lib/Makefile
 	   src/algorithms/sorts/Makefile
+	   src/test/Makefile
 	   ])
