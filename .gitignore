@@ -9,3 +9,4 @@ stamp-h1
 *.Po
 *.o
 autom4te.cache/
+/src/anger_tools.*
