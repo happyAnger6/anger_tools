@@ -1,0 +1,2 @@
+bin_PROGRAMS=slist_reverse
+slist_reverse_SOURCES=slist_reverse.c
