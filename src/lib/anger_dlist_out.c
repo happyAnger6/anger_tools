@@ -69,3 +69,31 @@ int dlist_ins_prev(DList *pList, DListElem *pElem, void *pData)
    pList->iSize++;
    return 0;
 }
+
+int dlist_del(DList *pList, DListElem *pElem, void **ppData)
+{
+    if(0==dlist_size(pList) || NULL == pElem)
+        return -1;
+
+    if(pElem->pNext != NULL)
+    {
+        pElem->pNext->pPrev = pElem->pPrev; 
+    }
+
+    if(pElem->pPrev != NULL)
+    {
+        pElem->pPrev->pNext = pElem->pNext; 
+    }
+    else
+    {
+        pList->pHead = pElem->pNext; 
+        if(pList->pTail == pElem)
+            pList->pTail = NULL;
+    }
+
+    *ppData = pElem->pData;
+    if(NULL != pList->pfDestory)
+        pList->pfDestory(pElem);
+    pList->iSize--;
+    return 0;
+}
