@@ -23,4 +23,5 @@ AC_OUTPUT([Makefile
 	   src/algorithms/sorts/Makefile
 	   src/algorithms/lists/slist/Makefile
 	   src/test/Makefile
+	   src/examples/Makefile
 	   ])
