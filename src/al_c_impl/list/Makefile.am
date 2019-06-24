@@ -1,0 +1,3 @@
+noinst_PROGRAMS=jose_ring jose_ring_ary
+jose_ring_SOURCES=jose_ring.c
+jose_ring__ary_SOURCES=jose_ring_ary.c
