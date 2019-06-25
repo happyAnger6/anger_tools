@@ -1,3 +1,6 @@
-noinst_PROGRAMS=jose_ring jose_ring_ary
+noinst_PROGRAMS=jose_ring jose_ring_ary jose_ring_list reverse_list ins_sort_list
 jose_ring_SOURCES=jose_ring.c
 jose_ring__ary_SOURCES=jose_ring_ary.c
+jose_ring_list_SOURCES=jose_ring_list.c
+reverse_list_SOURCES=reverse_list.c
+ins_sort_list_SOURCES=ins_sort_list.c
