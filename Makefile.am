@@ -1,4 +1,5 @@
-SUBDIRS=src/lib src/algorithms/sorts src/test src/examples src/al_c_impl/list
+SUBDIRS=src/lib src/algorithms/sorts src/test src/examples src/al_c_impl/list \
+        src/unp/intro
 CURRENTPATH=$(shell /bin/pwd)
 INCLUDES=-I$(CURRENTPATH)/src/include
 export INCLUDES
