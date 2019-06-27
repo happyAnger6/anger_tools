@@ -1,0 +1,2 @@
+bin_PROGRAMS=longest_substr_norepeated
+longest_substr_norepeated_SOURCES=longest_substr_norepeated.c

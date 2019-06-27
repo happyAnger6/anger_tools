@@ -27,4 +27,5 @@ AC_OUTPUT([Makefile
 	   src/test/Makefile
 	   src/examples/Makefile
 	   src/al_c_impl/list/Makefile
+	   src/letmecode/Makefile
 	   ])
