@@ -1,0 +1,3 @@
+noinst_PROGRAMS=gnu_typeof_test
+gnu_typeof_test_SOURCES=gnu_typeof.c
+

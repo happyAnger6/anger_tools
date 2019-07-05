@@ -19,3 +19,10 @@ autom4te.cache
 *.la
 *.lo
 /.libs
+*a.out
+a.out
+/*/a.out
+/a.out
+*/a.out
+*.out
+**/*.out

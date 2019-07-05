@@ -25,6 +25,7 @@ AC_OUTPUT([Makefile
 	   src/algorithms/sorts/Makefile
 	   src/algorithms/lists/slist/Makefile
 	   src/test/Makefile
+	   src/test/gnu_test/Makefile
 	   src/examples/Makefile
 	   src/al_c_impl/list/Makefile
 	   src/letmecode/Makefile

@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
     char *pcStr = argv[1];
     int len = strlen(pcStr);
 
-    int max=0, left=0;
+    int max=0, left=0, max_left=0;
     int sum[256]={0};
 
     int tmp = 0;
@@ -22,17 +22,25 @@ int main(int argc, char *argv[])
     {
         if(sum[pcStr[i]] == 0 || left > sum[pcStr[i]])
         {
-            tmp = left - i + 1;
+            tmp = i - left + 1;
             if(tmp > max)
-               max = tmp; 
+            {
+                max = tmp; 
+                max_left = left; 
+            }
         } 
         else
         {
             left = sum[pcStr[i]]; 
-            i = left;
         }
         sum[pcStr[i]]=i+1;
     }
 
     printf("max len [%d]\r\n", max);
+    for(i = 0; i < max; i++)
+    {
+        printf("%c\r\n", pcStr[max_left+i]);
+    }
+    fflush(stdout);
+    return 0;
 }

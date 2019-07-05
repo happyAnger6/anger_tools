@@ -1,2 +1,3 @@
-bin_PROGRAMS=longest_substr_norepeated
+bin_PROGRAMS=longest_substr_norepeated palindrome_number
 longest_substr_norepeated_SOURCES=longest_substr_norepeated.c
+palindrome_number_SOURCES=palindrome_number.c
