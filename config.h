@@ -13,6 +13,9 @@
 /* Define to 1 if you have the <memory.h> header file. */
 #define HAVE_MEMORY_H 1
 
+/* Define to 1 if you have the `pthread_mutex_lock' function. */
+#define HAVE_PTHREAD_MUTEX_LOCK 1
+
 /* Define to 1 if you have the <stdint.h> header file. */
 #define HAVE_STDINT_H 1
 

@@ -19,6 +19,7 @@ AC_PROG_LIBTOOL
 # Checks for library functions.
 AC_CHECK_FUNCS(bzero)
 AC_CHECK_FUNCS(vsnprintf)
+AC_CHECK_FUNCS(pthread_mutex_lock)
 
 AC_OUTPUT([Makefile
 	   src/lib/Makefile
@@ -28,5 +29,6 @@ AC_OUTPUT([Makefile
 	   src/test/gnu_test/Makefile
 	   src/examples/Makefile
 	   src/al_c_impl/list/Makefile
+	   src/al_c_impl/skills/Makefile
 	   src/letmecode/Makefile
 	   ])
